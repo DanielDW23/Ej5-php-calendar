@@ -1,0 +1,40 @@
+###############################################################################
+#                          Generated on phpdocker.io                          #
+###############################################################################
+version: '3.1'
+
+name: ej5-php-calendario
+
+services:
+    mysql:
+        image: 'mysql:8.0'
+        working_dir: /application
+        volumes:
+            - './pagina_reserva-citas:/application'
+        environment:
+            - MYSQL_ROOT_PASSWORD=mysql
+            - MYSQL_DATABASE=basedatos
+            - MYSQL_USER=user
+            - MYSQL_PASSWORD=mysql
+        ports:
+            - '62002:3306'
+       
+    webserver:
+        image: 'nginx:alpine'
+        working_dir: /application
+        volumes:
+            - './pagina_reserva-citas:/application'
+            - './phpdocker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf'
+        ports:
+            - '62000:80'
+        
+        
+    php-fpm:
+        build: phpdocker/php-fpm
+        working_dir: /application
+        volumes:
+            - './pagina_reserva-citas:/application'
+            - './phpdocker/php-fpm/php-ini-overrides.ini:/etc/php/8.2/fpm/conf.d/99-overrides.ini'
+        
+          
+

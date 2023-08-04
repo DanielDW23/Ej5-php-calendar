@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  max-width: 1440px;
+  padding: 20px;
+}
+
+.title {
+  margin-right: 20%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+}
+
+#nameRed {
+  color: #EE5A3C;
+}
+
+.button {
+  justify-content: center;
+  padding: 10px;
+  background-color: #3C8F7D;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* a {
+  padding: 10 20px; 
+} */
+
+.submit-button {
+  width: 10%;
+  background-color: #F57359; 
+  margin-left: 5px;
+}
+
+p {
+  color: grey;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.input-container {
+  align-items: center;
+}
+
+.email-input {
+  width: 20%;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+.imageContainer img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
