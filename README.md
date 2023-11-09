@@ -65,15 +65,15 @@ Requisitos mínimos que debe incluir la página:
   
   <p align="center" >
   
- <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/bd1a8a43-d288-4427-bdd5-b09dd939a0ef" width="775" />  
- <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/d4f10719-3705-4ed9-bd99-15cb0baf2248" width="775" />  
- <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/8af9e93b-222b-4b67-9d1a-22a63b3f4d00" width="775" />  
- <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/c785f1f3-afce-4c1a-ac4e-5991ca114514" width="775" />
+ <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/938be26b-95c2-4cb0-b629-31a301fbf425" width="775" />  
+ <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/19ddde5a-3a94-4d38-9028-1f9301ca2ac4" width="775" />  
+ <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/a8fe9d69-6ea9-4e4a-a627-3822f2661e58" width="775" />  
+ <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/a83222e7-4e1d-4263-862c-12cdb1902c21" width="775" />
 
           
     
- <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/0f5a6947-40d4-456f-9202-1fdeb35f3abf" width="270" />
- <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/3bab746b-dc18-4f50-84d9-6a1732e304fa" width="270" />
+ <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/bbc0ff05-62b9-434f-8ee2-f905374d77cf" width="270" />
+ <img src="https://github.com/DanielDW23/Ej5-php-calendar/assets/126791645/d0955d4b-eea3-4bce-908d-57c11e4d467a" width="270" />
 
   
 </p>
